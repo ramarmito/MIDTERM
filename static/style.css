@@ -1,0 +1,36 @@
+body {display: flex;
+    justify-content: center;
+    background: lightpink;}
+
+.login-container {
+    display:flex;
+    justify-content: center;
+    width: 45vw;
+    height: 60vh;
+    background-color: crimson;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+label,
+label span,
+label input {
+    margin-bottom: 6px;
+    width:100%;
+}
+
+.buttoncontainer{
+    display: inline-block;
+}
